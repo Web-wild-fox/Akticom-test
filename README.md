@@ -3,7 +3,7 @@
 
 https://web-wild-fox.github.io/Akticom-test/
 
-<h2>How to use Akticom-test?</h2>
+<h2>Как использовать Akticom-test?</h2>
 
 <ol>
 	<li>Скачать</a> <strong>Akticom-test</strong> с GitHub;</li>

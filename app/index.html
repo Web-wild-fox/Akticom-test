@@ -31,54 +31,72 @@
 	<header>
 
 		<ul class="sidebar-right">
+			<a href="!#" class="sidebar-right__link">
+				<li class="sidebar-right__item">
+					<img class="sidebar-right__item-img" src="img/sidebar-right__icon-login.svg" alt="Войти">
+					<p class="sidebar-right__item-text">Войти</p>
+				</li>
+			</a>
 
-			<li class="sidebar-right__item">
-				<img class="sidebar-right__item-img" src="img/sidebar-right__icon-login.svg" alt="Войти">
-				<p class="sidebar-right__item-text">Войти</p>
-			</li>
+			<a href="!#" class="sidebar-right__link">
+				<li class="sidebar-right__item sidebar-right__item_num-of-messages">
+					<img class="sidebar-right__item-img" src="img/sidebar-right__icon-basket.svg" alt="Корзина">
+					<p class="sidebar-right__item-text">Корзина</p>
+				</li>
+			</a>
 
-			<li class="sidebar-right__item sidebar-right__item_num-of-messages">
-				<img class="sidebar-right__item-img" src="img/sidebar-right__icon-basket.svg" alt="Корзина">
-				<p class="sidebar-right__item-text">Корзина</p>
-			</li>
-				
-			<li class="sidebar-right__item">
-				<img class="sidebar-right__item-img" src="img/sidebar-right__icon-equally.svg" alt="Сравнение">
-				<p class="sidebar-right__item-text">Сравнение</p>
-			</li>
+			<a href="!#" class="sidebar-right__link">
+				<li class="sidebar-right__item">
+					<img class="sidebar-right__item-img" src="img/sidebar-right__icon-equally.svg" alt="Сравнение">
+					<p class="sidebar-right__item-text">Сравнение</p>
+				</li>
+			</a>
 
-			<li class="sidebar-right__item">
-				<img class="sidebar-right__item-img" src="img/sidebar-right__icon-headphone.svg" alt="Сервис">
-				<p class="sidebar-right__item-text">Сервис</p>
-			</li>
+			<a href="!#" class="sidebar-right__link">
+				<li class="sidebar-right__item">
+					<img class="sidebar-right__item-img" src="img/sidebar-right__icon-headphone.svg" alt="Сервис">
+					<p class="sidebar-right__item-text">Сервис</p>
+				</li>
+			</a>
 
-			<li class="sidebar-right__item">
-				<img class="sidebar-right__item-img" src="img/sidebar-right__icon-doctor-stethoscope.svg" alt="Каталог">
-				<p class="sidebar-right__item-text">Каталог</p>
-			</li>
+			<a href="!#" class="sidebar-right__link">
+				<li class="sidebar-right__item">
+					<img class="sidebar-right__item-img" src="img/sidebar-right__icon-doctor-stethoscope.svg"
+						alt="Каталог">
+					<p class="sidebar-right__item-text">Каталог</p>
+				</li>
+			</a>
 
-			<li class="sidebar-right__item">
-				<img class="sidebar-right__item-img" src="img/sidebar-right__icon-feedback.svg" alt="Заказать звонок">
-				<p class="sidebar-right__item-text">Заказать звонок</p>
-			</li>
+			<a href="!#" class="sidebar-right__link">
+				<li class="sidebar-right__item">
+					<img class="sidebar-right__item-img" src="img/sidebar-right__icon-feedback.svg"
+						alt="Заказать звонок">
+					<p class="sidebar-right__item-text">Заказать звонок</p>
+				</li>
+			</a>
 		</ul>
 
 		<nav class="navbar fixed-top navbar-expand-xl navbar-light bg-light nav-top">
-			
-			<a class="navbar-brand nav-top__logo-link-m" href="#">Логотип</a>
 
-			<button class="navbar-toggler nav-top__button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<a class="navbar-brand nav-top__logo-link-m" href="#">
+				<img class="nav-top__logo-img-m" src="img/nav-top__logo.svg" alt="Логотип">
+				<p class="nav-top__logo-text-m">Эндомаркет</p>
+			</a>
+
+			<button class="navbar-toggler nav-top__button" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
 			<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
 
 				<a class="navbar-brand nav-top__logo-link" href="#">
-					<img class="nav-top__logo-img" src="img/nav-top__logo.svg" alt="">
+					<img class="nav-top__logo-img" src="img/nav-top__logo.svg" alt="Логотип">
 					<div class="nav-top__logo-text-box">
 						<p class="nav-top__logo-text">Эндомаркет</p>
-						<p class="nav-top__logo-text-full">Федеральный поставщик оборудования<br> и инструментов для эндоскопии</p>
+						<p class="nav-top__logo-text-full">Федеральный поставщик оборудования<br> и инструментов для
+							эндоскопии</p>
 					</div>
 				</a>
 
@@ -100,14 +118,16 @@
 				</ul>
 
 				<div class="nav-top__contacts-box">
-					<a class="nav-top__contacts-box_number" href="tel:8-800-555-85-68" >8-800-555-85-68</a>
+					<a class="nav-top__contacts-box_number" href="tel:8-800-555-85-68">8-800-555-85-68</a>
 					<div class="nav-top__contacts-box_address">г.Москва, ул.Братиславская,<br> д.6, оф.154</div>
 					<div class="nav-top__contacts-box_w-hours">Пн-Пв: 8:30 - 18:00</div>
 				</div>
 
 				<form class="form-inline my-2 my-lg-0 nav-top__form">
-					<input class="form-control mr-sm-2 nav-top__form_search" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success my-2 my-sm-0 nav-top__form_button" type="submit">Поиск</button>
+					<input class="form-control mr-sm-2 nav-top__form_search" type="search" placeholder="Search"
+						aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0 nav-top__form_button"
+						type="submit">Поиск</button>
 				</form>
 
 			</div>
@@ -116,44 +136,206 @@
 
 	</header>
 
-	<div class="container">
-		<div class="row">
-			<div class="col">
+	<section class="sec-1">
 
-				<div class="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dicta unde minus veritatis dolorum, vero illum inventore ipsum quibusdam ad assumenda earum laboriosam perferendis rem placeat sit. Eligendi, obcaecati adipisci.
-				Ut ducimus ad unde sit? Consequatur dolore iusto alias tempore fuga magnam officia neque provident illum ducimus esse fugit rem dignissimos voluptatibus doloribus doloremque eos, accusamus error voluptates. Aliquid, vel!
-				Delectus reprehenderit alias error, illum tempore ut magni officia quaerat quos sit quisquam ipsa sunt. Accusantium officia quam culpa perspiciatis ut quo esse! Aperiam consectetur labore velit assumenda impedit ea?
-				Nisi ipsa iure debitis consequatur repellendus quia quaerat veniam molestiae, nam totam dignissimos, perspiciatis, labore expedita ipsam nemo magnam laborum. Sequi iusto ut beatae consequatur dolorem, quae iste nobis sed!
-				A nam accusamus illo numquam laudantium porro eveniet cum ducimus hic quasi fuga quidem adipisci, quaerat voluptates voluptate debitis inventore voluptatibus quis fugiat expedita aliquam, nemo exercitationem. Vero, veritatis exercitationem?
-				Nulla dolor magni quas exercitationem rerum obcaecati dolorem sit enim reprehenderit animi voluptatibus et, id magnam nesciunt vero tempore, molestias natus possimus! Porro necessitatibus molestiae doloremque facere facilis possimus. Labore!
-				Iste minima provident, sed eos culpa ducimus libero deserunt deleniti eum blanditiis impedit beatae mollitia excepturi optio vero! Atque fugiat rerum harum non illum! Sit delectus aliquam recusandae inventore ad.
-				Laudantium libero veritatis, placeat eum fuga expedita magni impedit vero officia saepe sit error voluptates, ipsa quae laboriosam adipisci eveniet! Quod eum, nisi quaerat rem tempora consectetur consequatur cumque culpa!
-				Deleniti aliquam sequi iusto, iure quasi eum illum id voluptate, ducimus ullam ut beatae quo laudantium corporis cupiditate, voluptates nihil explicabo eos officiis. Alias corrupti veniam velit eveniet eius quas.
-				Aperiam explicabo perferendis itaque distinctio aliquam cumque atque ullam eligendi, iure nulla ipsa inventore architecto iusto impedit sint maiores eveniet corporis reprehenderit possimus expedita tempore vero! Voluptas velit autem dolor?
-				Laboriosam nisi illum mollitia aliquam dolorem voluptatum recusandae. Architecto minima sint culpa amet blanditiis accusantium, dolores repellendus numquam officia, eveniet dolorum! Facilis deserunt inventore voluptate dolore porro nam aspernatur ipsum!
-				Labore hic aperiam vero cupiditate eius illum omnis! Dicta, earum recusandae enim tempora assumenda accusamus ipsum culpa, dolorum consectetur velit ut placeat distinctio iste ipsam provident cupiditate. Accusamus, doloribus incidunt!
-				Fugit excepturi nulla tempora eveniet magnam quos asperiores ullam dolore perferendis, minima accusantium temporibus? Laudantium corporis iste quod est quia distinctio delectus quis rerum, inventore nobis accusamus facere ipsa alias.
-				Itaque et alias, consectetur impedit voluptates vitae inventore, nobis optio eaque quas autem reprehenderit dolore aut dolorum incidunt numquam ex. Aperiam sint doloremque nulla molestias similique inventore velit vitae dolorum!
-				Qui est cum sit fugit esse maxime. Autem libero rerum iure repellat, molestias corporis facilis non. Cupiditate minima, animi officiis qui, cum autem omnis, harum sed voluptatem aspernatur maiores praesentium.
-				Excepturi tempora laudantium ipsa eius eligendi qui ipsum ipsam, natus laboriosam inventore? Nisi ea veniam maxime numquam quos, quasi nam consequuntur obcaecati ducimus culpa laudantium labore tempora vel. Tempore, quas.
-				In voluptates laudantium sunt eveniet, maiores cupiditate nobis aspernatur quam laboriosam esse? A dolorem illum dolorum velit sit dolore perspiciatis nihil obcaecati eos esse, ut et blanditiis necessitatibus accusamus accusantium?
-				Consequuntur nobis recusandae voluptate praesentium iure harum, fuga ex, sint quaerat ipsa cumque placeat repudiandae nulla beatae molestias quibusdam omnis cum molestiae quas error, eaque quod? Repellendus quo id aperiam!
-				Ratione eligendi, quos iure magnam accusamus excepturi. Sit sapiente repellat repellendus. Possimus nemo corporis tempore esse error assumenda eos earum eum aut, voluptate repellendus harum numquam dolorem beatae adipisci? Id.
-				Molestiae eius corporis ex cum odio quo voluptatem voluptas quia nobis totam vel non, esse, natus doloribus? Ducimus fugit eligendi sequi. Dolorem omnis sequi quas, in asperiores temporibus quaerat pariatur?
-				Nemo a aperiam vel cumque hic nesciunt quaerat, possimus quis labore laudantium totam commodi molestiae similique sequi beatae maxime accusantium veritatis mollitia? Omnis maiores eveniet officia enim dolorum ab quam?
-				Impedit ut esse maxime quam? Earum, ipsa velit quae placeat maxime fuga nihil eveniet impedit autem tempore eum ex. Nulla ex quidem soluta maiores quis accusamus omnis, distinctio recusandae voluptates.
-				Ullam, blanditiis commodi. Quia eligendi adipisci repellat dolor mollitia at nobis atque, inventore esse ullam vero nemo voluptatem vitae! Quam deleniti error minus placeat quisquam aperiam delectus eum quis ratione.
-				Suscipit voluptatibus molestiae non consectetur autem assumenda dolorum aperiam sint accusantium culpa, omnis ut repellendus? Molestiae ducimus facilis vero fugiat ullam, quisquam sed! Accusantium est magni laboriosam eos dolore fuga!
-				Quos dolores doloremque, maiores distinctio tempore incidunt iusto enim voluptates fuga atque quam sapiente rerum nemo accusantium aliquid saepe nesciunt architecto obcaecati sunt doloribus impedit? Quia mollitia nulla sunt quis?
-				Exercitationem accusantium mollitia doloremque iure modi debitis, suscipit magnam recusandae saepe omnis doloribus necessitatibus similique corporis commodi, molestiae unde nesciunt laboriosam, rerum ab. Enim dolorem sequi quidem? Voluptatem, dolor amet.
-				Delectus blanditiis placeat autem, iste officiis veniam molestias corrupti similique cum perspiciatis magni assumenda qui, dolor quo ducimus voluptatibus aliquam quos commodi natus quod! Error ea numquam commodi inventore magnam.
-				Necessitatibus ex a, maiores consequuntur sit ipsam aliquam. Eveniet cum consequuntur provident autem odit aperiam voluptates, beatae consequatur facere doloribus, repellendus nulla fugit deleniti tempore, inventore rem dolor velit nostrum!
-				Recusandae saepe amet aliquam iure accusantium exercitationem officiis corporis perferendis enim est, ad, libero eveniet accusamus, error maiores cumque laborum! Ducimus repellat laboriosam sequi ea nisi iusto est minus obcaecati.
-				Molestiae consectetur aperiam ullam culpa fuga, voluptate pariatur eum accusamus sunt commodi omnis tempore quam unde sapiente obcaecati maxime harum iusto facere reiciendis explicabo vel dolorum reprehenderit? Aliquam, amet error.</div>
+		<div class="sec-1__container">
+			<div class="row">
+
+				<div class="col-12">
+					<h2 class="sec-1__headline">Лучшее оборудование для медицины</h2>
+				</div>
+
+				<div class="col-12__card-box">
+
+					<div class="sec-1__card-box sec-1__card-box_bg-1">
+
+						<p class="sec-1__card-box_title">
+							Гибкие медицинские эндоскопы
+						</p>
+						<p class="sec-1__card-box_text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias at labore iure
+							necessitatibus placeat libero?
+						</p>
+						<a href="!#" class="sec-1__card-box_link">
+							Узнать подробнее
+						</a>
+
+					</div>
+
+					<div class="sec-1__card-box sec-1__card-box_bg-2">
+						<p class="sec-1__card-box_title">
+							Жесткие медицинские эндоскопы
+						</p>
+						<p class="sec-1__card-box_text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						</p>
+						<a href="!#" class="sec-1__card-box_link">
+							Узнать подробнее
+						</a>
+					</div>
+
+					<div class="sec-1__card-box sec-1__card-box_bg-3">
+						<p class="sec-1__card-box_title">
+							Оборудование для дезинфекции и стерилизации
+						</p>
+						<p class="sec-1__card-box_text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aperiam voluptatem,
+							error nulla quasi modi ducimus nam. Sapiente ab reiciendis laborum enim. Modi quisquam fugit
+							quos similique pariatur, aperiam atque excepturi, quia corrupti repudiandae rem?
+							laborum enim. Modi quisquam fugit quos similique pariatur, aperiam atque excepturi, quia
+							corrupti repudiandae rem?
+						</p>
+						<a href="!#" class="sec-1__card-box_link">
+							Узнать подробнее
+						</a>
+					</div>
+
+					<div class="sec-1__card-box sec-1__card-box_bg-4">
+						<p class="sec-1__card-box_title">
+							Электрохирургические блоки
+						</p>
+						<p class="sec-1__card-box_text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, consectetur quod iste
+							accusamus ipsa tempora eos vero, amet ratione velit quibusdam voluptatibus sed sint est
+							optio. Natus eius ea officiis inventore modi, rerum ad deleniti.
+						</p>
+						<a href="!#" class="sec-1__card-box_link">
+							Узнать подробнее
+						</a>
+					</div>
+
+					<div class="sec-1__card-box sec-1__card-box_bg-5">
+						<p class="sec-1__card-box_title">
+							Инструментарий для гибкой эндоскопии
+						</p>
+						<p class="sec-1__card-box_text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, consectetur quod iste.
+						</p>
+						<a href="!#" class="sec-1__card-box_link">
+							Узнать подробнее
+						</a>
+					</div>
+
+					<div class="sec-1__card-box sec-1__card-box_bg-6">
+						<p class="sec-1__card-box_title">
+							Инструментарий для жесткой эндоскопии
+						</p>
+						<p class="sec-1__card-box_text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, consectetur quod iste
+							accusamus ipsa tempora eos vero, amet ratione velit quibusdam voluptatibus sed sint est
+							optio. Natus eius ea officiis inventore modi, rerum ad deleniti.
+						</p>
+						<a href="!#" class="sec-1__card-box_link">
+							Узнать подробнее
+						</a>
+					</div>
+
+					<div class="sec-1__card-box sec-1__card-box_bg-7">
+						<p class="sec-1__card-box_title">
+							Системы хранения
+						</p>
+						<p class="sec-1__card-box_text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, consectetur quod iste
+							accusamus ipsa tempora eos vero, amet ratione velit quibusdam voluptatibus sed sint est
+							optio. Natus eius ea officiis inventore modi, rerum ad deleniti.
+						</p>
+						<a href="!#" class="sec-1__card-box_link">
+							Узнать подробнее
+						</a>
+					</div>
+
+					<div class="sec-1__card-box sec-1__card-box_bg-8">
+						<p class="sec-1__card-box_title">
+							Прочие принадлежности
+						</p>
+						<p class="sec-1__card-box_text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, consectetur quod iste
+							accusamus ipsa tempora eos vero, amet ratione velit quibusdam voluptatibus sed sint est
+							optio. Natus eius ea officiis inventore modi, rerum ad deleniti.
+						</p>
+						<a href="!#" class="sec-1__card-box_link">
+							Узнать подробнее
+						</a>
+					</div>
+
+				</div>
 
 			</div>
 		</div>
-	</div>
+
+	</section>
+
+	<section class="sec-2">
+
+		<div class="bd-example">
+
+			<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+
+				<ol class="carousel-indicators sec-2__group-indicators">
+					<li data-target="#carouselExampleCaptions" data-slide-to="0" class="sec-2__indicator-1 active"></li>
+					<li data-target="#carouselExampleCaptions" data-slide-to="1" class="sec-2__indicator-2"></li>
+					<li data-target="#carouselExampleCaptions" data-slide-to="2" class="sec-2__indicator-3"></li>
+				</ol>
+
+				<div class="carousel-inner">
+
+					<div class="carousel-item active sec-2__bg-slide-1">
+						<!-- <img src="img/sec-2__slide-1.jpg" class="d-block w-100 test-img" alt="..."> -->
+						<div class="carousel-caption d-none d-md-block sec-2__slide-1">
+							<h5 class="sec-2__slide-1_title">Мы готовы к переменам. А вы?</h5>
+							<p class="sec-2__slide-1_big-text">AQ100 (CBI+)</p>
+							<p class="sec-2__slide-1_text">Система на базе видеоцентра AQ100
+								(CBI+) с режимом виртуальной хромоскопии (CBI) –
+								воплощение передовых медицинских технологий
+								по доступной цене.</p>
+							<a href="!#" class="sec-2__slide-1_link">
+								Узнать подробнее
+							</a>
+						</div>
+					</div>
+
+					<div class="carousel-item sec-2__bg-slide-1">
+						<div class="carousel-caption d-none d-md-block sec-2__slide-1">
+							<h5 class="sec-2__slide-1_title">Мы готовы к переменам. А вы?</h5>
+							<p class="sec-2__slide-1_big-text">AQ100 (CBI+)</p>
+							<p class="sec-2__slide-1_text">Система на базе видеоцентра AQ100
+								(CBI+) с режимом виртуальной хромоскопии (CBI) –
+								воплощение передовых медицинских технологий
+								по доступной цене.</p>
+							<a href="!#" class="sec-2__slide-1_link">
+								Узнать подробнее
+							</a>
+						</div>
+					</div>
+
+					<div class="carousel-item sec-2__bg-slide-1">
+						<div class="carousel-caption d-none d-md-block sec-2__slide-1">
+							<h5 class="sec-2__slide-1_title">Мы готовы к переменам. А вы?</h5>
+							<p class="sec-2__slide-1_big-text">AQ100 (CBI+)</p>
+							<p class="sec-2__slide-1_text">Система на базе видеоцентра AQ100
+								(CBI+) с режимом виртуальной хромоскопии (CBI) –
+								воплощение передовых медицинских технологий
+								по доступной цене.</p>
+							<a href="!#" class="sec-2__slide-1_link">
+								Узнать подробнее
+							</a>
+						</div>
+					</div>
+
+				</div>
+				<!-- <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a> -->
+			</div>
+
+		</div>
+
+	</section>
 
 	<script src="js/scripts.min.js"></script>
 

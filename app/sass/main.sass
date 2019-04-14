@@ -41,6 +41,9 @@ body
 
 .navbar-nav
 	padding: 0 20px
+
+.carousel-caption
+	position: relative
 // Переопределенные классы bootstarp_END
 
 	
@@ -59,6 +62,12 @@ body
 
 .nav-top__logo-link-m
 	visibility: hidden
+	display: inline-block
+	margin: 0 auto
+	padding-left: 60px
+
+.nav-top__logo-text-m
+	display: none
 
 .nav-top__logo-img
 	width: 100px
@@ -179,8 +188,13 @@ body
 	padding: 25px 25px
 	&:hover
 		background-color: $bg-sidebar-right_hover
+
+.sidebar-right__link
+	display: block
 	&:last-child
 		margin-top: 80px
+	&:hover
+		text-decoration: none
 
 .sidebar-right__item:hover.sidebar-right__item_num-of-messages
 	&::before
@@ -203,11 +217,209 @@ body
 	width: 45px
 
 .sidebar-right__item-text
-	padding-top: 5px
-	margin: 0px
+	font-family: $font-sidebar-right, sans-serif
 	color: $text-color-light
 	font-size: 14px
-	font-family: $font-sidebar-right
+	padding-top: 5px
+	margin: 0px
 // SIDEBAR_END
 
+
+// SEC-1
+.sec-1
+	position: relative
+	padding-top: 140px
+	font-size: 0px
+
+.sec-1__container
+	text-align: center
+	padding: 0 15%
+	padding-bottom: 40px
+
+.sec-1__headline
+	font-family: $font-headline, sans-serif
+	color: $text-color-accent
+	font-size: 40px
+	text-transform: uppercase
+	padding-top: 40px
+	padding-bottom: 20px
+	text-align: center
+
+.col-12__card-box
+	padding: 0
+	margin: 0
+	width: 100%
+	height: 100%
+
+.sec-1__card-box
+	position: relative
+	background:  url('../img/sec-1__card-box_bg.jpg') 
+	background-size: cover
+	overflow: hidden
+	font-size: 16px
+	height: 100%
+	min-height: 360px
+	max-height: 420px
+	max-width: 280px
+	display: inline-block
+	text-align: left
+	margin: 20px
+	vertical-align: top
+	&:hover .sec-1__card-box_title
+		color: $text-color-light
+	&:hover .sec-1__card-box_text
+		visibility: visible
+	&:hover .sec-1__card-box_link
+		visibility: visible
+
+.sec-1__card-box
+	&:hover
+		&::before
+			position: absolute
+			left: 0
+			top: 0
+			right: 0
+			bottom: 0
+			content: ''
+			background: rgba(17, 59, 95, 0.8)
+	
+.sec-1__card-box_bg-1
+	background: url('../img/sec-1__card-box_img.png') no-repeat 100px 100px, url('../img/sec-1__card-box_bg.jpg') 
+	background-size: 240px 240px, cover
+
+.sec-1__card-box_bg-2
+	background: url('../img/sec-1__card-box_img-2.png') no-repeat -50px 100px, url('../img/sec-1__card-box_bg.jpg') 
+	background-size: 240px 240px, cover
+
+.sec-1__card-box_bg-3
+.sec-1__card-box_bg-4
+.sec-1__card-box_bg-5
+.sec-1__card-box_bg-6
+.sec-1__card-box_bg-7
+.sec-1__card-box_bg-8
+
+.sec-1__card-box_title
+	position: relative
+	font-family: $font-headline, sans-serif
+	color: $text-color-accent
+	font-size: 18px
+	padding: 15px 20px
+	margin: 0
+	text-transform: uppercase
+
+.sec-1__card-box_text
+	position: relative
+	visibility: hidden
+	font-family: $font-text-box, sans-serif
+	color: $text-color-accent
+	font-size: 12px
+	color: $text-color-light
+	padding: 0 20px 
+	margin: 0
+	margin-bottom: 100px
+
+.sec-1__card-box_link
+	visibility: hidden
+	position: absolute
+	font-family: $font-text-box, sans-serif
+	color: $text-color-light
+	font-size: 20px
+	text-transform: uppercase
+	background-color: $bg-bottom
+	bottom: 20px
+	padding: 15px 20px
+	margin: 0 20px
+	border-radius: 10px
+	&:hover
+		background-color: darken($bg-bottom, 5%)
+		color: $text-color-light
+		text-decoration: none
+// SEC-1_END
+
+
+// SEC-2
+.sec-2
+	// position: relative
+
+.sec-2__group-indicators
+	display: inline-block
+
+.sec-2__indicator-1
+	cursor: pointer
+	display: inline-block
+	left: 0
+
+.sec-2__indicator-2
+	cursor: pointer
+	display: inline-block
+	left: 1px
+
+.sec-2__indicator-3
+	cursor: pointer
+	display: inline-block
+	left: 2px
+
+.sec-2__slide-1
+	width: 600px
+	text-align: left
+	padding: 140px 0
+
+.sec-2__slide-1_title
+	font-family: $font-title, sans-serif
+	font-size: 24px
+	color: $text-color-light
+	text-transform: uppercase
+	font-weight: normal
+	margin: 0
+	padding: 0
+	line-height: 1.0
+
+.sec-2__slide-1_big-text
+	font-family: $font-big-text, sans-serif
+	font-size: 90px
+	color: $text-color-second
+	text-transform: uppercase
+	margin: 0
+	padding: 0
+	line-height: 1.8
+
+.sec-2__bg-slide-1
+	// position: relative
+	background: url("../img/sec-2__slide-1.jpg") no-repeat center center
+	background-size: cover
+	top: 0
+	// display: none
+
+.sec-2__bg-slide-1.active
+	// display: block
+	// visibility: visible
+	// opacity: 1
+
+.sec-2__slide-1_text
+	font-family: $font-text-box, sans-serif
+	font-size: 16px
+	color: $text-color-light
+	margin: 0
+	margin-bottom: 60px
+	padding: 0
+	line-height: 1.2
+
+.sec-2__slide-1_link
+	font-family: $font-text-box, sans-serif
+	font-size: 20px
+	color: $text-color-light
+	text-transform: uppercase
+	background-color: $bg-bottom
+	padding: 15px 20px
+	border-radius: 10px
+	// margin: 0
+	// padding: 0
+	// margin-top: 40px
+	&:hover
+		background-color: darken($bg-bottom, 5%)
+		color: $text-color-light
+		text-decoration: none
+
+// SEC-2_END
+  
 @import "media" // Always at the end

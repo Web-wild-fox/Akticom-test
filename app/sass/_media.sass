@@ -3,6 +3,14 @@
 
 /*==========  Desktop First  ==========*/
 
+@media only screen and (max-width : 1660px)
+    .nav-top__logo-text-box
+        display: none
+
+@media only screen and (max-width : 1400px)
+    .nav-top__form
+        margin-right: 150px
+
 // ≥1200px
 +media-breakpoint-down(lg)
     .sidebar-right
@@ -10,10 +18,13 @@
         width: 100%
         padding: 0px
         height: auto
+    .sidebar-right__link
+	    display: inline-block
     .sidebar-right__item
         display: inline-block
         padding: 8px 25px
-    .sidebar-right__item:last-child
+    .sidebar-right__item:last-child,
+    .sidebar-right__link:last-child
         margin-top: 0
     .sidebar-right__item-img,
     .sidebar-right__item_num-of-messages
@@ -23,16 +34,55 @@
 	    display: inline-block
     .nav-top
         margin-top: 40px
+    .nav-top__button
+        margin-right: 10px
     .nav-top__logo-link
 	    display: none
     .nav-top__logo-link-m
 	    visibility: visible
+        margin: 0px auto
+    .nav-top__logo-img-m
+        width: 60px
+        padding: 5px
+        display: inline-block
+    .nav-top__logo-text-m
+        font-family: $font-nav-top__logo-text, sans-serif
+        font-size: 30px
+        display: inline-block
+        vertical-align: middle
+        margin: 0
+        padding-top: 5px
+        color: $text-color-accent
+    .nav-top__form,
+    .nav-top__contacts-box_address,
+    .nav-top__contacts-box_w-hours
+        display: none
+    .nav-top__contacts-box
+        text-align: center
+        padding-bottom: 20px
+    .navbar-nav
+        padding-bottom: 10px
+    .nav-item
+        padding-bottom: 6px
+    .sec-1__headline
+        font-size: 30px
+        padding-top: 20px
+        padding-bottom: 10px
 
 // ≥992px
 +media-breakpoint-down(md)
+    .sec-1__container
+        padding: 0 6%
 
 // ≥768px
 +media-breakpoint-down(sm)
+    .carousel,
+    .sec-2__group-indicators
+        display: none
+
+@media only screen and (max-width : 580px)
+    .nav-top
+        margin-top: 88px
 
 // ≥576px
 +media-breakpoint-down(xs)

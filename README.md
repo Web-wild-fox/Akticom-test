@@ -1,5 +1,5 @@
 # Akticom-test
-Верстка макета (затрачено времени: ~12ч.)
+Верстка макета (затрачено времени: ~18ч.)
 
 https://web-wild-fox.github.io/Akticom-test/
 
